@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script>(function(){try{var t=localStorage.getItem('pp_theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todas as Ofertas — Port Promos</title>
+<meta name="description" content="Explore todas as ofertas da Port Promos: filtre por categoria, marca, preço e avaliação para encontrar a promoção perfeita.">
+<meta property="og:title" content="Todas as Ofertas — Port Promos">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/brand/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+<header>
+  <nav class="pp-navbar">
+    <div class="container d-flex align-items-center gap-3">
+      <button class="btn-pp-ghost d-lg-none p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#ppOffcanvas" aria-controls="ppOffcanvas" aria-label="Abrir menu">
+        <i class="bi bi-list fs-5"></i>
+      </button>
+      <a href="index.html" class="pp-logo"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></a>
+      <div class="pp-search d-none d-md-block">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Buscar produtos, marcas e categorias..." aria-label="Buscar produtos">
+        <button type="button" class="clear-btn" aria-label="Limpar busca"><i class="bi bi-x-circle-fill"></i></button>
+        <div class="pp-search-suggest"></div>
+      </div>
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <a href="favoritos.html" class="pp-icon-btn" aria-label="Ver favoritos">
+          <i class="bi bi-heart"></i>
+          <span class="count-badge js-fav-count d-none">0</span>
+        </a>
+        <button class="pp-theme-switch" type="button" aria-label="Alternar tema claro/escuro" aria-pressed="false">
+          <span class="knob"><i class="bi bi-sun"></i></span>
+        </button>
+      </div>
+    </div>
+    <div class="pp-search d-md-none container mt-2">
+      <i class="bi bi-search"></i>
+      <input type="text" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+      <button type="button" class="clear-btn" aria-label="Limpar busca"><i class="bi bi-x-circle-fill"></i></button>
+      <div class="pp-search-suggest"></div>
+    </div>
+    <div class="pp-subnav d-none d-lg-block">
+      <div class="container">
+        <div class="scroller">
+          <a href="ofertas.html" class="pp-cat-link">Todas as Ofertas</a>
+          <a href="ofertas.html?cat=Eletr%C3%B4nicos" class="pp-cat-link">Eletrônicos</a>
+          <a href="ofertas.html?cat=Celulares" class="pp-cat-link">Celulares</a>
+          <a href="ofertas.html?cat=Moda" class="pp-cat-link">Moda</a>
+          <a href="ofertas.html?cat=Cal%C3%A7ados" class="pp-cat-link">Calçados</a>
+          <a href="ofertas.html?cat=Casa" class="pp-cat-link">Casa</a>
+          <a href="ofertas.html?cat=Beleza%20%26%20Perfumaria" class="pp-cat-link">Beleza &amp; Perfumaria</a>
+          <a href="ofertas.html?cat=Suplementos%20%26%20Esportes" class="pp-cat-link">Suplementos &amp; Esportes</a>
+          <a href="ofertas.html?cat=Acess%C3%B3rios" class="pp-cat-link">Acessórios</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="ppOffcanvas" aria-labelledby="ppOffcanvasLabel">
+  <div class="offcanvas-header">
+    <span class="pp-logo" id="ppOffcanvasLabel"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></span>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column gap-1">
+    <a href="index.html" class="pp-off-link"><i class="bi bi-house-door"></i> Início</a>
+    <a href="ofertas.html" class="pp-off-link"><i class="bi bi-tags"></i> Todas as Ofertas</a>
+    <a href="favoritos.html" class="pp-off-link"><i class="bi bi-heart"></i> Favoritos</a>
+    <hr style="border-color:var(--border-color);opacity:1">
+    <a href="ofertas.html?cat=Eletr%C3%B4nicos" class="pp-off-link"><i class="bi bi-cpu"></i> Eletrônicos</a>
+    <a href="ofertas.html?cat=Celulares" class="pp-off-link"><i class="bi bi-phone"></i> Celulares</a>
+    <a href="ofertas.html?cat=Moda" class="pp-off-link"><i class="bi bi-bag-heart"></i> Moda</a>
+    <a href="ofertas.html?cat=Cal%C3%A7ados" class="pp-off-link"><i class="bi bi-shoe"></i> Calçados</a>
+    <a href="ofertas.html?cat=Casa" class="pp-off-link"><i class="bi bi-house-heart"></i> Casa</a>
+    <a href="ofertas.html?cat=Beleza%20%26%20Perfumaria" class="pp-off-link"><i class="bi bi-droplet-half"></i> Beleza &amp; Perfumaria</a>
+    <a href="ofertas.html?cat=Suplementos%20%26%20Esportes" class="pp-off-link"><i class="bi bi-trophy"></i> Suplementos &amp; Esportes</a>
+    <a href="ofertas.html?cat=Acess%C3%B3rios" class="pp-off-link"><i class="bi bi-sunglasses"></i> Acessórios</a>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="ppFilterOffcanvas" aria-labelledby="ppFilterOffcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="ppFilterOffcanvasLabel"><i class="bi bi-funnel-fill"></i> Filtros</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+  </div>
+  <div class="offcanvas-body" id="pp-filters-mobile"></div>
+</div>
+
+<main id="main-content">
+  <div class="container">
+    <div class="pp-page-hero reveal">
+      <h1 id="pp-catalog-title" style="font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;margin-bottom:.4rem;">Todas as Ofertas</h1>
+      <p id="pp-results-count" style="color:rgba(255,255,255,.78);margin:0;">Carregando…</p>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row g-4">
+      <aside class="col-lg-3 d-none d-lg-block">
+        <div class="pp-card p-3" style="position:sticky;top:90px;">
+          <h6 style="font-size:.85rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.4rem;"><i class="bi bi-funnel-fill"></i> Filtros</h6>
+          <div id="pp-filters-desktop"></div>
+        </div>
+      </aside>
+
+      <div class="col-lg-9">
+        <div class="d-flex align-items-center justify-content-between gap-2 mb-3 flex-wrap">
+          <button type="button" class="btn btn-pp-outline btn-sm d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#ppFilterOffcanvas">
+            <i class="bi bi-funnel-fill"></i> Filtros
+          </button>
+          <div class="ms-lg-auto d-flex align-items-center gap-2">
+            <label for="pp-sort-select" class="text-muted-pp" style="font-size:.85rem;">Ordenar por:</label>
+            <select id="pp-sort-select" class="form-select form-select-sm" style="background:var(--input-bg);border-color:var(--border-color);color:var(--text);width:auto;">
+              <option value="relevance">Relevância</option>
+              <option value="discount">Maior desconto</option>
+              <option value="price-asc">Menor preço</option>
+              <option value="price-desc">Maior preço</option>
+              <option value="rating">Melhor avaliados</option>
+              <option value="newest">Mais recentes</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="pp-catalog-grid">
+          <div class="row g-3">
+            <div class="col-6 col-md-4"><div class="pp-skel pp-skel-card" style="width:100%;"></div></div>
+            <div class="col-6 col-md-4"><div class="pp-skel pp-skel-card" style="width:100%;"></div></div>
+            <div class="col-6 col-md-4"><div class="pp-skel pp-skel-card" style="width:100%;"></div></div>
+          </div>
+        </div>
+
+        <div id="pp-load-more-wrap" class="text-center mt-4 d-none">
+          <button type="button" id="pp-load-more-btn" class="btn btn-pp-primary px-4">Carregar mais ofertas</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="pp-footer">
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <a href="index.html" class="pp-logo mb-3 d-inline-flex"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></a>
+        <p class="mt-3" style="color:rgba(255,255,255,.6);font-size:.88rem;">As melhores ofertas de eletrônicos, moda, casa e muito mais, selecionadas todos os dias para você economizar de verdade.</p>
+        <div class="social-row">
+          <a href="https://chat.whatsapp.com/Irc1ZAEOgQYDOvAE1nA97b" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/portpromos?igsh=Z3l2MDNya2J0ZWox" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6>Categorias</h6>
+        <a href="ofertas.html?cat=Eletr%C3%B4nicos">Eletrônicos</a>
+        <a href="ofertas.html?cat=Celulares">Celulares</a>
+        <a href="ofertas.html?cat=Moda">Moda</a>
+        <a href="ofertas.html?cat=Casa">Casa</a>
+        <a href="ofertas.html?cat=Acess%C3%B3rios">Acessórios</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6>Port Promos</h6>
+        <a href="ofertas.html">Todas as ofertas</a>
+        <a href="favoritos.html">Meus favoritos</a>
+        <a href="#" data-pp-modal="sobre">Sobre o grupo</a>
+        <a href="#" data-pp-modal="como-funciona">Como funciona</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6>Ajuda</h6>
+        <a href="#" data-pp-modal="faq">Perguntas frequentes</a>
+        <a href="#" data-pp-modal="privacidade">Política de privacidade</a>
+        <a href="#" data-pp-modal="termos">Termos de uso</a>
+        <a href="#" data-pp-modal="contato">Fale conosco</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+      <span>© 2026 Port Promos. Todos os direitos reservados.</span>
+      <span>Preços e disponibilidade são de responsabilidade das lojas parceiras (Shopee, Mercado Livre).</span>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="pp-back-to-top" aria-label="Voltar ao topo">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="assets/js/supabaseClient.js"></script>
+<script src="assets/js/products-data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/info-modals.js"></script>
+</body>
+</html>

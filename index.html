@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script>(function(){try{var t=localStorage.getItem('pp_theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Port Promos — As Melhores Ofertas e Promoções do Dia</title>
+<meta name="description" content="Port Promos reúne todos os dias as melhores ofertas de eletrônicos, moda, casa, beleza e mais — com descontos reais e links direto para Shopee e Mercado Livre.">
+<meta property="og:title" content="Port Promos — As Melhores Ofertas e Promoções do Dia">
+<meta property="og:description" content="Ofertas relâmpago, mais vendidos e promoções imperdíveis selecionadas todos os dias.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/brand/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="has-bg-image">
+
+<!-- ═══ FULLSCREEN IMAGE BACKGROUND ═══════════════════════════════════════
+     Static artwork (floating island) replaces the old video background:
+     ~99% lighter on the network, no autoplay/codec concerns, and the
+     CSS-only slow-zoom in style.css keeps a touch of motion.
+     pointer-events:none via CSS — no click/scroll interference.
+  ═══════════════════════════════════════════════════════════════════════ -->
+<div class="pp-bg" aria-hidden="true" role="presentation">
+  <picture>
+    <source srcset="assets/img/brand/bg-island.webp" type="image/webp">
+    <img
+      class="pp-bg-img"
+      src="assets/img/brand/bg-island.jpg"
+      alt=""
+      fetchpriority="high"
+      decoding="async"
+    >
+  </picture>
+  <div class="pp-bg-overlay"></div>
+</div>
+<a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+<header>
+  <nav class="pp-navbar">
+    <div class="container d-flex align-items-center gap-3">
+      <button class="btn-pp-ghost d-lg-none p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#ppOffcanvas" aria-controls="ppOffcanvas" aria-label="Abrir menu">
+        <i class="bi bi-list fs-5"></i>
+      </button>
+      <a href="index.html" class="pp-logo"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></a>
+      <div class="pp-search d-none d-md-block">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="Buscar produtos, marcas e categorias..." aria-label="Buscar produtos">
+        <button type="button" class="clear-btn" aria-label="Limpar busca"><i class="bi bi-x-circle-fill"></i></button>
+        <div class="pp-search-suggest"></div>
+      </div>
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <a href="favoritos.html" class="pp-icon-btn" aria-label="Ver favoritos">
+          <i class="bi bi-heart"></i>
+          <span class="count-badge js-fav-count d-none">0</span>
+        </a>
+        <button class="pp-theme-switch" type="button" aria-label="Alternar tema claro/escuro" aria-pressed="false">
+          <span class="knob"><i class="bi bi-sun"></i></span>
+        </button>
+      </div>
+    </div>
+    <div class="pp-search d-md-none container mt-2">
+      <i class="bi bi-search"></i>
+      <input type="text" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+      <button type="button" class="clear-btn" aria-label="Limpar busca"><i class="bi bi-x-circle-fill"></i></button>
+      <div class="pp-search-suggest"></div>
+    </div>
+    <div class="pp-subnav d-none d-lg-block">
+      <div class="container">
+        <div class="scroller">
+          <a href="ofertas.html" class="pp-cat-link">Todas as Ofertas</a>
+          <a href="ofertas.html?cat=Eletr%C3%B4nicos" class="pp-cat-link">Eletrônicos</a>
+          <a href="ofertas.html?cat=Celulares" class="pp-cat-link">Celulares</a>
+          <a href="ofertas.html?cat=Moda" class="pp-cat-link">Moda</a>
+          <a href="ofertas.html?cat=Cal%C3%A7ados" class="pp-cat-link">Calçados</a>
+          <a href="ofertas.html?cat=Casa" class="pp-cat-link">Casa</a>
+          <a href="ofertas.html?cat=Beleza%20%26%20Perfumaria" class="pp-cat-link">Beleza &amp; Perfumaria</a>
+          <a href="ofertas.html?cat=Suplementos%20%26%20Esportes" class="pp-cat-link">Suplementos &amp; Esportes</a>
+          <a href="ofertas.html?cat=Acess%C3%B3rios" class="pp-cat-link">Acessórios</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="ppOffcanvas" aria-labelledby="ppOffcanvasLabel">
+  <div class="offcanvas-header">
+    <span class="pp-logo" id="ppOffcanvasLabel"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></span>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column gap-1">
+    <a href="index.html" class="pp-off-link"><i class="bi bi-house-door"></i> Início</a>
+    <a href="ofertas.html" class="pp-off-link"><i class="bi bi-tags"></i> Todas as Ofertas</a>
+    <a href="favoritos.html" class="pp-off-link"><i class="bi bi-heart"></i> Favoritos</a>
+    <hr style="border-color:var(--border-color);opacity:1">
+    <a href="ofertas.html?cat=Eletr%C3%B4nicos" class="pp-off-link"><i class="bi bi-cpu"></i> Eletrônicos</a>
+    <a href="ofertas.html?cat=Celulares" class="pp-off-link"><i class="bi bi-phone"></i> Celulares</a>
+    <a href="ofertas.html?cat=Moda" class="pp-off-link"><i class="bi bi-bag-heart"></i> Moda</a>
+    <a href="ofertas.html?cat=Cal%C3%A7ados" class="pp-off-link"><i class="bi bi-shoe"></i> Calçados</a>
+    <a href="ofertas.html?cat=Casa" class="pp-off-link"><i class="bi bi-house-heart"></i> Casa</a>
+    <a href="ofertas.html?cat=Beleza%20%26%20Perfumaria" class="pp-off-link"><i class="bi bi-droplet-half"></i> Beleza &amp; Perfumaria</a>
+    <a href="ofertas.html?cat=Suplementos%20%26%20Esportes" class="pp-off-link"><i class="bi bi-trophy"></i> Suplementos &amp; Esportes</a>
+    <a href="ofertas.html?cat=Acess%C3%B3rios" class="pp-off-link"><i class="bi bi-sunglasses"></i> Acessórios</a>
+  </div>
+</div>
+
+<main id="main-content">
+  <h1 class="visually-hidden">Port Promos — Ofertas e promoções imperdíveis todos os dias</h1>
+
+  <div class="container">
+    <div id="ppHeroCarousel" class="carousel carousel-fade pp-hero" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#ppHeroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#ppHeroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#ppHeroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#ppHeroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="pp-hero-slide" style="--slide-bg:linear-gradient(120deg,#0A192F 0%,#1B2F57 55%,#7B3FE4 140%)">
+            <div class="pp-hero-content">
+              <span class="pp-hero-eyebrow">📈 Mais Procurado</span>
+              <h2>iPhone 14 Pro Original Apple</h2>
+              <p>128GB ou 256GB · Bateria entre 85% e 100% · Nota fiscal e acessórios inclusos.</p>
+              <div class="pp-hero-price-row mb-3">
+                <span class="new-price" style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;color:#fff;">R$&nbsp;3.106,26</span>
+              </div>
+              <a href="produto.html?id=p011" class="btn btn-pp-cta btn-lg">Ver oferta <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pp-hero-figure"><img src="assets/img/produtos/IMG-20260614-WA0059.jpg" alt="iPhone 14 Pro Original Apple"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="pp-hero-slide" style="--slide-bg:linear-gradient(120deg,#0A192F 0%,#3A1A0A 55%,#CC5500 140%)">
+            <div class="pp-hero-content">
+              <span class="pp-hero-eyebrow">🔥 Oferta Relâmpago</span>
+              <h2>Perfume Árabe Lattafa Asad</h2>
+              <p>Fragrância intensa e marcante · 100ml Eau de Parfum · Selo de originalidade.</p>
+              <div class="pp-hero-price-row mb-3">
+                <span style="text-decoration:line-through;color:rgba(255,255,255,.6);font-size:1rem;margin-right:.6rem;">R$&nbsp;289,99</span>
+                <span class="new-price" style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;color:#fff;">R$&nbsp;175,50</span>
+              </div>
+              <a href="produto.html?id=p001" class="btn btn-pp-cta btn-lg">Ver oferta <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pp-hero-figure"><img src="assets/img/produtos/IMG-20260613-WA0063.jpg" alt="Perfume Árabe Lattafa Asad"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="pp-hero-slide" style="--slide-bg:linear-gradient(120deg,#0A192F 0%,#0E2A52 55%,#0056D2 140%)">
+            <div class="pp-hero-content">
+              <span class="pp-hero-eyebrow">🚀 Super Desconto</span>
+              <h2>Smart TV 32&quot; Android 14 com Wi-fi</h2>
+              <p>Tela LED HD · Apps de streaming integrados · Por menos de R$ 800.</p>
+              <div class="pp-hero-price-row mb-3">
+                <span class="new-price" style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;color:#fff;">R$&nbsp;787,15</span>
+              </div>
+              <a href="produto.html?id=p015" class="btn btn-pp-cta btn-lg">Ver oferta <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pp-hero-figure"><img src="assets/img/produtos/IMG-20260614-WA0132.jpg" alt="Smart TV 32 polegadas Android 14"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="pp-hero-slide" style="--slide-bg:linear-gradient(120deg,#0A192F 0%,#0E2A52 55%,#1FA45A 140%)">
+            <div class="pp-hero-content">
+              <span class="pp-hero-eyebrow">💎 Promoção do Dia</span>
+              <h2>A Creatina Mais Vendida do Brasil</h2>
+              <p>Creatina Monohidratada Pura 500g · 65% de desconto · Estoque limitado.</p>
+              <div class="pp-hero-price-row mb-3">
+                <span style="text-decoration:line-through;color:rgba(255,255,255,.6);font-size:1rem;margin-right:.6rem;">R$&nbsp;129,90</span>
+                <span class="new-price" style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;color:#fff;">R$&nbsp;44,90</span>
+              </div>
+              <a href="produto.html?id=p051" class="btn btn-pp-cta btn-lg">Ver oferta <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pp-hero-figure"><img src="assets/img/produtos/IMG-20260620-WA0004.jpg" alt="Creatina Monohidratada 500g"></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#ppHeroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#ppHeroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <div class="pp-countdown-bar" data-countdown>
+      <span class="label"><i class="bi bi-lightning-charge-fill text-orange"></i> Ofertas relâmpago terminam em:</span>
+      <div class="pp-countdown">
+        <span class="seg pp-cd-h">00</span><span class="sep">:</span>
+        <span class="seg pp-cd-m">00</span><span class="sep">:</span>
+        <span class="seg pp-cd-s">00</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="pp-section-head">
+      <div><h3><i class="bi bi-grid-fill"></i> Compre por Categoria</h3></div>
+    </div>
+    <div class="pp-cat-pills" id="pp-pills-mount"></div>
+  </div>
+
+  <div id="pp-sections-mount"></div>
+
+  <div id="pp-gamification-mount"></div>
+
+  <div class="container my-4">
+    <div class="pp-glass p-4 p-md-5 text-center reveal">
+      <i class="bi bi-bell-fill fs-2 text-orange"></i>
+      <h3 class="mt-3 mb-2">Não perca nenhuma promoção</h3>
+      <p class="text-muted-pp mb-0">Novas ofertas são adicionadas todos os dias. Volte sempre ou favorite seus produtos preferidos para acompanhar o preço.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="pp-footer">
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <a href="index.html" class="pp-logo mb-3 d-inline-flex"><picture><source srcset="assets/img/brand/logo.webp" type="image/webp"><img src="assets/img/brand/logo.png" alt="Port Promos" class="pp-logo-img"></picture></a>
+        <p class="mt-3" style="color:rgba(255,255,255,.6);font-size:.88rem;">As melhores ofertas de eletrônicos, moda, casa e muito mais, selecionadas todos os dias para você economizar de verdade.</p>
+        <div class="social-row">
+          <a href="https://chat.whatsapp.com/Irc1ZAEOgQYDOvAE1nA97b" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/portpromos?igsh=Z3l2MDNya2J0ZWox" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <h6>Categorias</h6>
+        <a href="ofertas.html?cat=Eletr%C3%B4nicos">Eletrônicos</a>
+        <a href="ofertas.html?cat=Celulares">Celulares</a>
+        <a href="ofertas.html?cat=Moda">Moda</a>
+        <a href="ofertas.html?cat=Casa">Casa</a>
+        <a href="ofertas.html?cat=Acess%C3%B3rios">Acessórios</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6>Port Promos</h6>
+        <a href="ofertas.html">Todas as ofertas</a>
+        <a href="favoritos.html">Meus favoritos</a>
+        <a href="#" data-pp-modal="sobre">Sobre o grupo</a>
+        <a href="#" data-pp-modal="como-funciona">Como funciona</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <h6>Ajuda</h6>
+        <a href="#" data-pp-modal="faq">Perguntas frequentes</a>
+        <a href="#" data-pp-modal="privacidade">Política de privacidade</a>
+        <a href="#" data-pp-modal="termos">Termos de uso</a>
+        <a href="#" data-pp-modal="contato">Fale conosco</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+      <span>© 2026 Port Promos. Todos os direitos reservados.</span>
+      <span>Preços e disponibilidade são de responsabilidade das lojas parceiras (Shopee, Mercado Livre).</span>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="pp-back-to-top" aria-label="Voltar ao topo">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="assets/js/supabaseClient.js"></script>
+<script src="assets/js/products-data.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/home.js"></script>
+
+<script src="assets/js/info-modals.js"></script>
+</body>
+</html>
